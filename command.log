@@ -1,0 +1,199 @@
+ABC command line: "source run.sctipt".
+
+      Welcome to ABC compiled on Jan  9 2019 13:32:55!
+
+ABC9 commands:
+ &acec            &add1hot         &anorm           &append         
+ &atree           &b               &back_reach      &bcore          
+ &bidec           &blut            &bmc             &bmci           
+ &bmcs            &cec             &cexinfo         &cfraig         
+ &chainbmc        &choice          &cof             &cone           
+ &cycle           &dc2             &dch             &decla          
+ &demiter         &dfs             &dsd             &dsdb           
+ &edge            &embed           &enable          &equiv          
+ &equiv2          &equiv3          &equiv_filter    &equiv_mark     
+ &era             &esop            &exorcism        &fadds          
+ &false           &fftest          &filter          &flow           
+ &flow2           &flow3           &force           &fraig          
+ &frames          &fx              &genqbf          &get            
+ &glucose         &gprove          &icheck          &if             
+ &if2             &iff             &iiff            &inse           
+ &iso             &isonpn          &isost           &jf             
+ &kf              &lcorr           &lf              &load           
+ &load2           &loadaig         &maxi            &mesh           
+ &mf              &mfs             &mfsd            &miter          
+ &miter2          &mprove          &nf              &of             
+ &pack            &pfan            &polyn           &popart         
+ &posplit         &poxsim          &profile         &ps             
+ &psig            &put             &qbf             &qvar           
+ &r               &reachm          &reachn          &reachp         
+ &reachy          &read            &read_blif       &read_cblif     
+ &read_stg        &read_ver        &reduce          &resim          
+ &retime          &rex2gia         &rexwalk         &rpm            
+ &sat             &satclp          &satenum         &satfx          
+ &satlut          &sattest         &save            &save2          
+ &saveaig         &scl             &scorr           &semi           
+ &setregnum       &show            &shrink          &sim            
+ &sim3            &slice           &sopb            &speci          
+ &speedup         &splitprove      &srm             &srm2           
+ &st              &status          &struct          &sweep          
+ &syn2            &syn3            &syn4            &synch2         
+ &test            &times           &topand          &trace          
+ &trim            &unate           &undo            &unmap          
+ &verify          &w               &wlut            &write          
+ &write_ver      
+
+Abstraction commands:
+ &abs_derive      &abs_refine      &fla_gla         &gla            
+ &gla_derive      &gla_fla         &gla_refine      &gla_shrink     
+ &gla_vta         &vta             &vta_gla        
+
+Basic commands:
+ abcrc            alias            echo             empty           
+ help             history          quit             recall          
+ set              source           time             unalias         
+ undo             unset            version         
+
+Choicing commands:
+ rec_add3         rec_dump3        rec_merge3       rec_ps3         
+ rec_start3       rec_stop3       
+
+DSD manager commands:
+ dsd_filter       dsd_free         dsd_load         dsd_match       
+ dsd_merge        dsd_ps           dsd_save        
+
+Exact synthesis commands:
+ allexact         bms_ps           bms_start        bms_stop        
+ lutexact         majexact         majgen           testexact       
+ twoexact        
+
+FPGA mapping commands:
+ if               ifif             print_box        print_lut       
+ read_box         read_lut        
+
+Fraiging commands:
+ dress            dump_equiv       fraig            fraig_clean     
+ fraig_restore    fraig_store      fraig_sweep      fraig_trust     
+
+I/O commands:
+ &read_gig        &write_cnf       &write_truths    read            
+ read_aiger       read_baf         read_bblif       read_bench      
+ read_blif        read_blif_mv     read_dsd         read_eqn        
+ read_fins        read_init        read_json        read_pla        
+ read_plamo       read_status      read_truth       read_verilog    
+ write            write_aiger      write_aiger_cex  write_baf       
+ write_bblif      write_bench      write_blif       write_blif_mv   
+ write_book       write_cellnet    write_cex        write_cnf       
+ write_dot        write_eqn        write_gml        write_hie       
+ write_json       write_pla        write_smv        write_sorter_cnf
+ write_status     write_truth      write_verilog   
+
+Liveness commands:
+ kcs              l2s              l2ssim           l3s             
+ nck             
+
+LogiCS commands:
+ testrpo         
+
+New AIG commands:
+ csweep           dc2              dch              dchoice         
+ dfraig           drf              drw              drwsat          
+ icut             ifraig           iresyn           irw             
+ irws             isat             istrash          qbf             
+
+New word level commands:
+ :blast           :cec             :clp             :get            
+ :ps              :put             :read            :test           
+ :write           @_cec            @_clp            @_get           
+ @_ps             @_put            @_read           @_test          
+ @_write         
+
+Printing commands:
+ print_auto       print_cone       print_delay      print_dsd       
+ print_exdc       print_factor     print_fanio      print_gates     
+ print_io         print_kmap       print_latch      print_level     
+ print_mffc       print_mint       print_miter      print_sharing   
+ print_stats      print_status     print_supp       print_symm      
+ print_unate      print_xcut       show             show_bdd        
+ show_cut        
+
+SC mapping commands:
+ amap             attach           map              phase_map       
+ print_genlib     print_library    print_profile    read_genlib     
+ read_library     read_profile     read_super       super           
+ super2           superc           supercl          timescale       
+ unmap            write_genlib     write_library    write_profile   
+
+SCL mapping commands:
+ buffer           dnsize           dump_genlib      leak2area       
+ maxsize          minsize          print_buf        print_constr    
+ print_gs         print_lib        read_constr      read_lib        
+ read_scl         reset_constr     stime            topo            
+ unbuffer         upsize           write_constr     write_lib       
+ write_scl       
+
+Sequential commands:
+ clockgate        cretime          cubeenum         cycle           
+ dretime          extwin           fretime          funenum         
+ init             inswin           lcorr            onehot          
+ pathenum         permute          phase            retime          
+ scleanup         scorr            sim              sim3            
+ ssweep           synch            testscorr        testssw         
+ undc             unpermute        xsim             zero            
+
+Synthesis commands:
+ addbuffs         balance          cascade          cleanup         
+ collapse         dsd              eliminate        exact           
+ extract          faultclasses     fx               fxch            
+ glitch           logicpush        lutmin           lutpack         
+ merge            mfs              mfs2             mfs3            
+ mfse             multi            mux_struct       powerdown       
+ refactor         renode           resub            rewrite         
+ runeco           satclp           sparsify         speedup         
+ strash           sweep            testdec          testnpn         
+ trace            varmin          
+
+Two-level commands:
+ |gen             |merge           |ps              |read           
+ |test            |write          
+
+Various commands:
+ addpi            aig              andpos           append          
+ autotuner        backup           bb2wb            bdd             
+ bidec            capo             care_set         cof             
+ comb             cone             cover            cubes           
+ cut              demiter          dframes          double          
+ dropsat          espresso         exdc_free        exdc_get        
+ exdc_set         expand           ext_seq_dcs      frames          
+ gen              genfsm           inter            load_plugin     
+ logic            minisat          minisimp         miter           
+ move_names       muxes            mvsis            node            
+ nodedup          npnload          npnsave          order           
+ orpos            outdec           putontop         qreach          
+ qrel             qvar             reach            removepo        
+ reorder          restore          send_aig         send_status     
+ senseinput       short_names      sis              sop             
+ splitsop         starter          swappos          test            
+ testcolor        topand           topmost          trim            
+ zeropo          
+
+Verification commands:
+ &sat3            &satoko          absec            blockpo         
+ bm               bm2              bmc              bmc2            
+ bmc3             cec              cexcut           cexload         
+ cexmerge         cexsave          constr           dcec            
+ debug            dprove           dsat             dsec            
+ dualrail         eco              enlarge          fold            
+ fold2            ind              indcut           int             
+ iprove           iso              match            pdr             
+ prove            psat             reconcile        sat             
+ satoko           saucy3           simsec           tempor          
+ testcex          unfold           unfold2          xsat            
+
+Word level commands:
+ %abs             %abs2            %blast           %blastmem       
+ %cone            %graft           %memabs          %pdra           
+ %profile         %ps              %read            %retime         
+ %short_names     %show            %test            %write          
+ inv_check        inv_get          inv_min          inv_print       
+ inv_ps           inv_put         
